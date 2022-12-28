@@ -1,14 +1,10 @@
-import React, { Component } from "react";
-import { Phonebook } from "./Phonebook/Phonebook";
+import React from 'react';
+import { Phonebook } from './Phonebook/Phonebook';
 
-export class App extends Component {
-  
-  render() {
-    return (
-    <div>       
-        <Phonebook/>        
-    </div>      
+export const App = () => {
+  return (
+    <div>
+      <Phonebook />
+    </div>
   );
-  }
-}
-
+};
